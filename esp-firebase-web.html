@@ -1,0 +1,182 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>FABLAB</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Neuton:300,400&display=swap" rel="stylesheet">
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      .fab-link {
+        padding: 1.2rem;
+        background-color: #f5ecec;
+        border-radius: 3px;
+      }
+
+      .fab-img {
+        width:100% !important;
+        margin:2rem !important;
+        border: 1px solid #f5e8e8;;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <div class="collapse bg-ddark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Padre nuestro que es en cielo  lo te juramos que no podemos vivir sin la luz del sol y las ropas de Hermes solamente.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">T</a></li>
+            <li><a href="#" class="text-white">F</a></li>
+            <li><a href="#" class="text-white">E</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-ddark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+       
+        <strong>FABMASTERS</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+
+  <section class="jumbotron text-center noise-wrapper">
+    <div class="container noise conteiner-article">
+
+      <!-- Here goes Article Article -->
+      <h1 class="jumbotron-heading">IoT: Arduino ESP8266 + Firebase Realtime Database</h1>
+      <hr />
+      <p class="lead author text-muted">FabLab Moscu </p>
+      <p class="lead date text-muted">May 17, 2019 </p>
+      
+    </div>
+  </section>
+
+  <!-- Here goes Article Graphical Abstract -->
+  <img src="img/ESP_Arduino3.svg" style="width:100%;" alt="ESP Firebase">
+
+  <div class="album py-5">
+    <div class="container conteiner-article">
+      <div class="row">
+        <div class="col-md-12">
+
+          <!-- Step  -->
+          <h3 style="padding-bottom:1rem;padding-top:3rem;">Step 1: Creatinging Firebase Realtime Database</h3>
+          <p class="lead">1. Create Google account (if you don't have it yet). </p>
+          <p class="lead">2. Go to <a target="blank" href="https://console.firebase.google.com/">console.firebase.google.com</a></p>
+          <img class="fab-img" src="img/jsonLibInstall.png" />
+          <p class="lead">3. Create new project (give it a name and chose location).</p>
+          <img class="fab-img" src="img/createApp.png" />
+          <img class="fab-img" src="img/createApp2.png" />
+          <p class="lead">4. Go to Database</p>
+          <img class="fab-img" src="img/createApp3.png" />
+          <p class="lead">5. Create Realtime Database.</p>
+          <img class="fab-img" src="img/createApp4.png" />
+          <p class="lead">6. Change permissions. </p>
+          <img class="fab-img" src="img/createApp5.png" />
+
+          <!-- Step 2 -->
+          <h3 style="padding-bottom:1rem;padding-top:3rem;">Step 2: Arduino ESP8266</h3>
+          <p class="lead">0. Download Arduino studio <a href="https://www.arduino.cc/en/main/software">HERE</a></p>
+          <img class="fab-img" src="img/arduinoDownload.png" />
+          <p class="lead">1. Copy link below:</p>
+          <p class="fab-link">http://arduino.esp8266.com/stable/package_esp8266com_index.json</p>
+          <p class="lead">2. Go to File -> Preferences (Файл -> Настройки).</p>
+          <p class="lead">3. Paste link into "Additional Boards Manager URLs":</p>
+          <img class="fab-img" src="img/arduinoJSON.png" />
+          <p class="lead">4. Go to Tools/Boards/Boards Manager..(Инструменты/Плата:/Менеджер плат...):</p>
+          <p class="lead">5. Search for "esp" and click "Install":</p>
+          <img class="fab-img" src="img/espBoards.png" />
+          <p class="lead">6. Download & Install FirebaseArduino library <a href="https://github.com/FirebaseExtended/firebase-arduino">HERE</a>.</p>
+          <img class="fab-img" src="img/firebaseLibInstall.png" />
+          <p class="lead">7. Download & Install ArduinoJSON library <a href="https://github.com/bblanchon/ArduinoJson/tree/5.x">HERE</a>.</p>
+          <img class="fab-img" src="img/jsonLibInstall.png" />
+
+          <p class="lead">5. Create new Arduino Sketch and paste code from bellow:</p>
+          <script src="https://gist.github.com/azamtau/363d67d6bba888c34dd637d1f5afd609.js"></script>
+          <p class="lead">6. Go to Firebase Console -> Настройки проекта -> Сервисные аккаунты -> Секреты базы данных.</p>
+          <p class="lead">7. Copy Database Secret and paste it in line №6 of your Arduino Sketch:</p>
+          <img class="fab-img" src="img/dbSecret.jpg" />
+          <p class="lead">8. Copy Database Name and paste it in line №5 of your Arduino Sketch:</p>
+          <img class="fab-img" src="img/dbName.jpg" />
+          <p class="lead">9. Set name of your WiFi network in line №7 and password in line №8 of your Arduino Sketch.</p>
+          <p class="lead">10. Choose Board "Node MCU 1.0" and avaliable port (if port is not available, try different USB ports several times).</p>
+          <p class="lead">11. Upload code to the board via USB.</p>
+          <p class="lead">12. Go to Fireebase Console -> Database [Temperature is incrementing every 5000ms]:</p>
+          <img class="fab-img" src="img/db.png" />
+
+          <!-- Step 3 -->
+          <h3 style="padding-bottom:1rem;padding-top:3rem;">Step 3: Website [in progress...]</h3>
+          <p class="lead">1. While working with text files it is convinient to use Sublime Text (<a href="https://www.sublimetext.com/3">Download here</a>).</p>
+          <p class="lead">2. Open Sublime, create new file (File -> New file) and paste the code from below:</p>
+          <script src="https://gist.github.com/azamtau/254ff3cf74e3923663ade5a7de911e0c.js"></script>
+          <p class="lead">3. Set your Firebase app keys in lines 80-86. Go to Project Overwiew in Firebase console</i>:</p>
+          <img class="fab-img" src="img/po.png" />
+          <p class="lead">4. Click on Веб-приложение (Web application):</p>
+          <img class="fab-img" src="img/wa.png" />
+          <p class="lead">4. Copy kyes and paste them in lines 80-86 of your webpage:</p>
+          <img class="fab-img" src="img/k.jpg" />
+          <p class="lead">5. Save as <i>index.html</i>.</p>
+          <p class="lead">6. Run this file using browser:</p>
+          <img class="fab-img" src="img/website.png" />
+          
+
+
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
