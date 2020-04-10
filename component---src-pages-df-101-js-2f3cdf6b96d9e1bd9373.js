@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{290:function(e,t,a){"use strict";a.r(t);var n=a(0),l=a.n(n),u=a(279),r=a(281),c=a(280);t.default=function(e){e.data;return l.a.createElement(u.a,null,l.a.createElement(r.a,null,l.a.createElement(c.a,{title:"Course CS101"}),l.a.createElement("p",null,"CS101"),l.a.createElement("p",null,"Titulos")))}}}]);
+//# sourceMappingURL=component---src-pages-df-101-js-2f3cdf6b96d9e1bd9373.js.map

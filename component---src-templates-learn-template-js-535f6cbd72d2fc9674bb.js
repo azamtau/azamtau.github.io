@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{286:function(e,a,n){"use strict";n.r(a);var t=n(0),c=n.n(t),l=(n(23),n(279)),r=n(281);a.default=function(e){var a=e.pageContext.course;return c.a.createElement(l.a,null,c.a.createElement(r.a,null,c.a.createElement("h2",null,"Learn"),c.a.createElement("p",{className:"pHomework"},a.breed),c.a.createElement("div",null,"Basic concepts")))}}}]);
+//# sourceMappingURL=component---src-templates-learn-template-js-535f6cbd72d2fc9674bb.js.map

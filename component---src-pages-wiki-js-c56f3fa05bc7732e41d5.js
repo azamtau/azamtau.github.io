@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{248:function(e,t,a){"use strict";a.r(t);var n=a(0),l=a.n(n),c=a(24),o=a(241),i=a(240);t.default=function(){return l.a.createElement(o.a,null,l.a.createElement(i.a,{title:"Wiki"}),l.a.createElement("h1",null,"Wiki"),l.a.createElement("p",null,"Welcome to page 2"),l.a.createElement(c.Link,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-wiki-js-c56f3fa05bc7732e41d5.js.map

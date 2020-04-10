@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{285:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n),l=(a(23),a(279)),c=a(281);t.default=function(e){var t=e.pageContext.course;return r.a.createElement(l.a,null,r.a.createElement(c.a,null,r.a.createElement("h2",null,"Projects"),r.a.createElement("p",{className:"pHomework"},t.breed),r.a.createElement("div",null,"No projects yet(")))}}}]);
+//# sourceMappingURL=component---src-templates-project-template-js-543ba2b07e3a69f00a75.js.map

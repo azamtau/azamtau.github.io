@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{253:function(e,n,a){"use strict";a.r(n);a(32);var t=a(0),r=a.n(t),l=(a(21),a(250));n.default=function(e){var n=e.pageContext.course;return r.a.createElement(l.a,null,r.a.createElement("h2",null,n.name),r.a.createElement("p",null,n.breed),n.name," - ",n.breed)}}}]);
+//# sourceMappingURL=component---src-templates-rating-template-js-e4dc8a5d9025b857936e.js.map

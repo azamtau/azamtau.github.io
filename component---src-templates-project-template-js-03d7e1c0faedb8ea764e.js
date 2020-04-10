@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{286:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t),l=(a(26),a(280)),c=a(282);n.default=function(e){var n=e.pageContext.course;return r.a.createElement(l.a,null,r.a.createElement(c.a,null,r.a.createElement("h2",null,"Projects"),r.a.createElement("p",{className:"pHomework"},n.breed),r.a.createElement("div",null,"1. Goding [Generative Drawing/Design]")))}}}]);
+//# sourceMappingURL=component---src-templates-project-template-js-03d7e1c0faedb8ea764e.js.map

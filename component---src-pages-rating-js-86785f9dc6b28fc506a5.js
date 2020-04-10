@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{247:function(e,t,n){"use strict";n.r(t);var a=n(0),c=n.n(a),l=n(24),o=n(241),r=n(240);t.default=function(){return c.a.createElement(o.a,null,c.a.createElement(r.a,{title:"Score"}),c.a.createElement("h1",null,"Current Scores"),c.a.createElement("p",null,"Welcome to page 2"),c.a.createElement(l.Link,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-rating-js-86785f9dc6b28fc506a5.js.map
